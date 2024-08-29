@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Water Supply Management</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Water Supply Management Logo">
+            <h1>Water Supply Management</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="welcome.html">Home</a></li>
+                <li><a href="subscription.html">Subscription</a></li>
+                <li><a href="catalog.html">Product Catalog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us. We’re here to help!</p>
+
+        <form action="submit-contact.html" method="post" class="contact-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="send-message-btn">Send Message</button>
+        </form>
+
+        <!-- Moved contact information below the form -->
+        <div class="contact-details">
+            <div class="detail">
+                <h3>Address:</h3>
+                <p>123 Water Street, Aquacity, 56789</p>
+            </div>
+            <div class="detail">
+                <h3>Email:</h3>
+                <p><a href="mailto:support@watersupply.com">support@watersupply.com</a></p>
+            </div>
+            <div class="detail">
+                <h3>Phone:</h3>
+                <p><a href="tel:+1234567890">+1 234 567 890</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Water Supply Management. All rights reserved.</p>
+    </footer>
+</body>
+</html>

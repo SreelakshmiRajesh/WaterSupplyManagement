@@ -1,0 +1,170 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff; /* Light Alice Blue background for a calming effect */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #b0e0e6; /* Light Steel Blue */
+    border-bottom: 2px solid #92C7CF;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    padding: 10px;
+    border: 2px solid #5397b9; /* Add border around each navigation link */
+    border-radius: 10px; /* Rounded corners for each link box */
+    background-color: #e6f7ff; /* Light blue background for each link box */
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00aaff;
+}
+
+.buy-now-container {
+    padding: 50px 20px;
+}
+
+.buy-now-container h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #5397b9;
+}
+
+.product-summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Reduced gap between image and text */
+    margin-bottom: 40px; /* Increased margin to add space */
+    background-color: #e6f7ff; /* Very light blue background for sections */
+    padding: 10px; /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 170, 255, 0.5);
+    max-width: 600px; /* Set maximum width to make the container smaller */
+    margin: 0 auto; /* Center the container */
+}
+
+.product-summary img {
+    width: 120px; /* Reduced width of the image */
+    border-radius: 10px;
+}
+
+.product-details {
+    max-width: 350px; /* Reduced maximum width of text content */
+}
+
+
+.product-details h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #5397b9;
+}
+
+.product-details p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.product-details .price {
+    font-size: 20px;
+    color: #5397b9;
+    margin-bottom: 15px;
+}
+
+.purchase-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #e6f7ff; /* Very light blue background for sections */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 170, 255, 0.5);
+}
+
+.purchase-form label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.purchase-form input, .purchase-form textarea, .purchase-form select {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #92C7CF;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.purchase-form textarea {
+    resize: vertical;
+}
+
+.complete-purchase-btn {
+    padding: 15px;
+    background-color: #00aaff;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.complete-purchase-btn:hover {
+    background-color: #33bbff;
+    transform: scale(1.05);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #92C7CF; /* Light Steel Blue */
+    color: #333;
+    border-top: 2px solid #AAD7D9;
+}

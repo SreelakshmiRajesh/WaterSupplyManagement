@@ -1,0 +1,180 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff; /* Light Alice Blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #b0e0e6; /* Light Steel Blue */
+    border-bottom: 2px solid #92C7CF; /* Light blue border */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333; /* Dark text */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #333; /* Dark text */
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00aaff; /* Bright blue hover effect */
+}
+
+.contact-container {
+    padding: 50px 20px;
+}
+
+.contact-container h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #5397b9; /* Light blue title color */
+}
+
+.contact-container p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666; /* Gray text */
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px; /* Space between form and details */
+}
+
+.detail {
+    text-align: center;
+}
+
+.contact-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #5397b9; /* Light blue heading */
+}
+
+.contact-details p {
+    font-size: 16px;
+    color: #666; /* Gray text */
+}
+
+.contact-details a {
+    color: #5397b9; /* Light blue link */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-details a:hover {
+    color: #33bbff; /* Lighter blue hover effect */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #e6f7ff; /* Very light blue background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 170, 255, 0.5); /* Light blue shadow */
+}
+
+.contact-form label {
+    font-size: 16px;
+    color: #333; /* Dark text */
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #92C7CF; /* Light blue border */
+    background-color: #b0e0e6; /* Light blue background */
+    color: #333; /* Dark text */
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.send-message-btn {
+    padding: 15px;
+    background-color: #00aaff; /* Light blue button */
+    color: #333; /* Dark text on the button */
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.send-message-btn:hover {
+    background-color: #33bbff; /* Lighter blue hover effect */
+    transform: scale(1.05);
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 30px;
+    color: #333; /* Dark text */
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #5397b9; /* Light blue link */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #33bbff; /* Lighter blue hover effect */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #92C7CF; /* Light Steel Blue */
+    color: #333; /* Dark text */
+    border-top: 2px solid #AAD7D9; /* Light blue border top */
+}
